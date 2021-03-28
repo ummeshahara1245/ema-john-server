@@ -51,3 +51,4 @@ app.post('/productsByKeys', (req,res)=>{
     res.send(documents);
   })
 })
+app.listen(process.env.PORT||port)
